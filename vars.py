@@ -8,7 +8,7 @@ API_HASH = environ.get("API_HASH", "0fc127c6055acd59f00ec6c229e1e3c4")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7627920473:AAFnx6BHFy87yxVbXi4s-n-9ZU3uaFCt5Gs")
 OWNER = int(environ.get("OWNER", "7296271316"))
 LOG_CHANNEL = "-1002477114210"
-CREDIT = "यश ठाकुर"
+CREDIT = "@Professor750bot"
 AUTH_USER = os.environ.get('AUTH_USERS', '7296271316').split(',')
 AUTH_USERS = [int(user_id) for user_id in AUTH_USER]
 if int(OWNER) not in AUTH_USERS:
